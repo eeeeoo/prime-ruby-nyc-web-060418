@@ -5,5 +5,8 @@ def prime?(int)
       return false
     end
   end
+  if int < 2
+    return false
+  end
   return true
 end
