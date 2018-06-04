@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(int)
   for n in 2..(int-1)
-    if n % d == 0
+    if int % n == 0
       return false
     end
   return true
